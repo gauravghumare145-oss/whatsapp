@@ -1,0 +1,9 @@
+{
+  "name": "WhatsApp Web - Email & Phone Chat",
+  "description": "Full-featured WhatsApp web application supporting login with Gmail/Email or Phone number, rich messaging, voice notes, status stories, video/audio calls, and group chats.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

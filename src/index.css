@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .text-2xs {
+    font-size: 0.6875rem;
+    line-height: 0.875rem;
+  }
+  .text-3xs {
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom sleek WhatsApp scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 120, 0.4);
+}
